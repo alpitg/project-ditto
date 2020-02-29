@@ -1,6 +1,7 @@
 
 import React, { Component } from 'react';
 // import NoteComponent from './components/landing-page/note-section';
+import ClassifySectionComponent from '../classify-section/classify-section'
 import './landing-page.css'
 class LandingpageComponent extends Component {
     constructor(props) {
@@ -113,6 +114,22 @@ class LandingpageComponent extends Component {
                             <div className="col-md-12" data-aos="fade-up" data-aos-delay="200">
 
                                 {/* <img src="images/undraw_investing_7u74.svg" alt="Image" className="img-fluid img-absolute" />  */}
+
+                                
+
+
+
+                                <div className="row mb-4" data-aos="fade-up" data-aos-delay="200">
+                                    <div className="col-lg-6 mr-auto">
+                                        <h1>Classify here</h1>
+                                       
+                                        <ClassifySectionComponent />
+
+                                    </div>
+
+                                </div>
+
+
 
                                 <div className="row mb-4" data-aos="fade-up" data-aos-delay="200">
                                     <div className="col-lg-6 mr-auto">
